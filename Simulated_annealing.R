@@ -37,7 +37,7 @@ SA = function(x, f, t, alpha, delta, maxIt)
     
     out$f_hist[i+1] = f(x)
     out$t_hist[i+1] = t
-    # 3. aktualizacja wartości parametru temperatury (annealian scedule)
+    # 3. aktualizacja wartości parametru temperatury (annealian schedule)
   }
   out$x_opt = x
   return(out)
